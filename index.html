@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Париж — мой любимый город</title>
+</head>
+<body>
+
+<!-- в топ -->
+<a id="top"></a>
+
+<!--заголовок-->
+<h1>
+  <img src="img/logo.png.png" alt="Логотип" width="100">
+  Париж
+</h1>
+
+<!--навигация -->
+<p>
+  <a href="#about">О городе</a><br>
+  <a href="#sights">Достопримечательности</a><br>
+  <a href="#gallery">Галерея</a><br>
+  <a href="#table">Таблица</a><br>
+  <a href="#forms">Формы</a><br>
+  <a href="https://ru.wikipedia.org/wiki/Париж" target="_blank">Википедия</a>
+</p>
+
+<!--о городе-->
+<h2 id="about">О городе</h2>
+<p>
+  Париж — столица Франции, один из самых известных и красивых городов мира. 
+  Он расположен на берегах реки Сены и известен своей архитектурой, музеями и уютными улицами.
+</p>
+<p><a href="#top">Вернуться к началу</a></p>
+
+<!--достопримечательности-->
+<h2 id="sights">Достопримечательности</h2>
+
+<!--места-->
+<h3>Самые красивые места в Париже</h3>
+<ul>
+  <li>Эйфелева башня</li>
+  <li>Лувр</li>
+  <li>Собор Парижской Богоматери</li>
+</ul>
+
+<h3>Места для ценителей эстетики</h3>
+<ol>
+  <li>Триумфальная арка</li>
+  <li>Монмартр</li>
+  <li>Елисейские поля</li>
+</ol>
+
+<h3>Список мест, где можно провести время</h3>
+<ul>
+  <li>Музеи:
+    <ul>
+      <li>Лувр</li>
+      <li>Музей Орсе</li>
+    </ul>
+  </li>
+  <li>Парки:
+    <ul>
+      <li>Люксембургский сад</li>
+      <li>Парк Бют-Шомон</li>
+    </ul>
+  </li>
+</ul>
+<p><a href="#top">Вернуться к началу</a></p>
+
+<!--большое изображение-->
+<h2 id="gallery">Галерея</h2>
+<p>Нажмите на миниатюру, чтобы открыть большое изображение Парижа в новой вкладке.</p>
+
+<a href="img/large1.png">
+  <img src="img/thumb1.png" alt="Миниатюра Парижа" width="100">
+</a>
+
+<p><a href="#top">Вернуться к началу</a></p>
+
+<!--таблица с фоном-->
+<h2 id="table">Таблица</h2>
+<table border="1" cellpadding="5" cellspacing="0" 
+       style="background-image: url('img/fon.png'); background-size: cover; background-position: center; width: 30%;">
+  <tr>
+    <th>Фото</th>
+    <th>Описание</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="img/latoureiffel.png" alt="Фото достопримечательности" width="150">
+    </td>
+    <td>
+      Эйфелева башня — символ Парижа. 
+      <a href="#gallery">Смотреть в галерее</a>
+    </td>
+  </tr>
+</table>
+<p><a href="#top">Вернуться к началу</a></p>
+
+<!-- Раздел: Формы -->
+<h2 id="forms">Формы</h2> 
+
+<h3>Контактная форма</h3>
+<form action="https://httpbin.org/get" method="get" target="_blank">
+  <p>Фамилия: <input type="text" name="surname" value="Иванов"></p>
+  <p>Имя: <input type="text" name="name" value="Иван"></p>
+  <p>Уровень языка: <input type="text" name="group" value="A1"></p>
+  <p>Телефон: <input type="text" name="phone" value="+7-900-000-0000"></p>
+  <p>Почта: <input type="text" name="email" value="ivan@example.com"></p>
+  <p>Дата отправки: <input type="date" name="send_date"></p>
+  <p><input type="submit" value="Отправить"></p>
+</form>
+
+<hr>
+
+<h3>Форма заказа экскурсии</h3>
+<form action="https://httpbin.org/get" method="get" target="_blank">
+  <p>Ваше имя: <input type="text" name="user_name" value="Анна"></p>
+  <p>Количество человек: <input type="number" name="people" value="2"></p>
+
+  <p>Вид экскурсии:<br>
+    <input type="radio" name="tour" value="bus"> Автобусная<br>
+    <input type="radio" name="tour" value="walk"> Пешеходная
+  </p>
+
+  <p>Дополнительно:<br>
+    <input type="checkbox" name="souvenir" value="yes"> Сувенир<br>
+    <input type="checkbox" name="guide" value="yes"> Гид
+  </p>
+
+  <p>Дата экскурсии: <input type="date" name="date"></p>
+  <p>Пароль от аккаунта: <input type="password" name="pass"></p>
+  <p><input type="submit" value="Отправить"></p>
+</form>
+
+<hr>
+<p><a href="#top">Вернуться к началу</a></p>
+<hr>
+
+</body>
+</html>
