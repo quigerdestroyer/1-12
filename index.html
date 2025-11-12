@@ -103,20 +103,20 @@
 <h2 id="forms">Формы</h2> 
 
 <h3>Контактная форма</h3>
-<form action="https://httpbin.org/get" method="get" target="_blank"> <!--отправляю-->
+<form action="https://httpbin.org/get" method="get" target="_blank"> <!--отправляю данные-->
   <p>Фамилия: <input type="text" name="surname" value="Иванов"></p>
   <p>Имя: <input type="text" name="name" value="Иван"></p>
   <p>Уровень языка: <input type="text" name="group" value="A1"></p>
   <p>Телефон: <input type="text" name="phone" value="+7-900-000-0000"></p>
   <p>Почта: <input type="text" name="email" value="ivan@example.com"></p>
-  <p>Дата отправки: <input type="date" name="send_date"></p>
+  <p>Дата отправки: <input type="date" name="send_date" value="2025-11-12"></p>
   <p><input type="submit" value="Отправить"></p>
 </form>
 
 <hr>
 
 <h3>Форма заказа экскурсии</h3>
-<form action="https://httpbin.org/get" method="get" target="_blank"> <!--отправляю-->
+<form action="https://httpbin.org/get" method="get" target="_blank"> <!--отправляю данные-->
   <p>Ваше имя: <input type="text" name="user_name" value="Анна"></p>
   <p>Количество человек: <input type="number" name="people" value="2"></p>
 
@@ -130,8 +130,8 @@
     <input type="checkbox" name="guide" value="yes" checked> Гид
   </p>
 
-  <p>Дата экскурсии: <input type="date" name="date"></p>
-  <p>Пароль от аккаунта: <input type="password" name="pass"></p>
+  <p>Дата экскурсии: <input type="date" name="date" value="2025-11-12"></p>
+  <p>Пароль от аккаунта: <input type="password" name="pass" value="123"> (123 по умолчанию)</p>
   <p><input type="submit" value="Отправить"></p>
 </form>
 
@@ -141,6 +141,7 @@
 
 </body>
 </html>
+
 
 
 
